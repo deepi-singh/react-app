@@ -18,11 +18,11 @@ function App(){
         <h4 className="h4class">Let's count with fun</h4>
 
         <>{count}</><br></br>
-        <button onClick={increment}>Increment</button>
+        <button className="inc" onClick={increment}>Increment</button>
 
-        <button onClick={()=>setCount(count-1)}>Decrement</button>
+        <button className="dec" onClick={()=>setCount(count-1)}>Decrement</button>
 
-        <button onClick={()=>setCount(0)}>Reset</button>
+        <button className="res" onClick={()=>setCount(0)}>Reset</button>
 
       </center>
     </div>

@@ -35,3 +35,18 @@ code {
   color: lightgreen;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+.inc{
+
+  background-color: green;
+}
+
+.dec{
+
+  background-color: orange;
+}
+
+.res{
+
+  background-color: lightblue;
+}
