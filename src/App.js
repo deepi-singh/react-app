@@ -24,6 +24,8 @@ function App(){
 
         <button className="res" onClick={()=>setCount(0)}>Reset</button>
 
+        <p>A new changes are effected here</p>
+
       </center>
     </div>
   )
